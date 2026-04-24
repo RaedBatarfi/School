@@ -227,7 +227,7 @@ export default function App() {
                 </div>
               </div>
               <div className="border-t border-white/10 pt-4">
-                <p className="font-bold mb-2 text-white">إعداد واشراف:</p>
+                <p className="font-bold mb-2 text-white">إعداد وإشراف:</p>
                 <div className="space-y-1">
                   <p>أ/ إيمان باطرفي</p>
                   <p>أ/ حنين سلامه</p>
