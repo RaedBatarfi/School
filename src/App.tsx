@@ -230,7 +230,7 @@ export default function App() {
                 <p className="font-bold mb-2 text-white">إعداد واشراف:</p>
                 <div className="space-y-1">
                   <p>أ/ إيمان باطرفي</p>
-                  <p>أ/ حنين سلامة</p>
+                  <p>أ/ حنين سلامه</p>
                 </div>
               </div>
               <div className="pt-4 text-xs opacity-50">
@@ -266,7 +266,7 @@ function HomePage({ onStart }: { onStart: (id: string) => void, key?: string }) 
             <span className="text-brand-secondary"></span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-            مرحباً بكم في رحلتنا التربوية، حيث نمضي معاً عبر محطات مضيئة لنبني جيلاً يفتخر بقيمه ويجسد أخلاقه في كل خطوة.
+            مرحبًا بكم في رحلتنا التربوية، حيث نمضي معًا عبر محطات مضيئة لنبني جيًلا يفتخر بقيمه ويجسد أخلاقه في كل خطوة.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
              <button 
