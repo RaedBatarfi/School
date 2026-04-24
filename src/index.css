@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+@theme {
+  --font-sans: "Noto Kufi Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Amiri", serif;
+  
+  --color-brand-primary: #1e4d4d;
+  --color-brand-secondary: #d4a373;
+  --color-brand-accent: #faedcd;
+  --color-brand-light: #fefae0;
+}
+
+body {
+  direction: rtl;
+  @apply bg-brand-light text-brand-primary font-sans;
+}
+
+h1, h2, h3 {
+  @apply font-bold;
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.station-transition {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
